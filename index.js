@@ -12,12 +12,11 @@ const menu = require("./lib/menu.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
-const BotName = 'BOT ./MrG3P5'; // Nama Bot Whatsapp
-const instagramlu = 'https://www.instagram.com/mrg3p5_id/'; // Nama Instagramlu cok
-const whatsapplu = '0895-2325-8649'; // Nomor whatsapplu cok
+const BotName = 'CMeRlin'; // Nama Bot Whatsapp
+const instagramlu = 'https://instagram.com/cherishcoos?igshid=119kfh05x1x2o'; // Nama Instagramlu cok
+const whatsapplu = '0878-3435-0808'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/L0jifxElwo6B2QyxuabLtU'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://chat.whatsapp.com/CxrUD2MnUv5KGko3CsW6DT'; // OFFICIAL GRUP LU 2
+const grupch1 = 'https://chat.whatsapp.com/EA8I0NooXpHLsuXC7kybEl'; // OFFICIAL GRUP LU 1
 //
 const
 {
@@ -284,6 +283,15 @@ conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik #help ya
 else if (text == 'euy'){
 conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik #help ya say..' ,MessageType.text);
 }
+else if (text == 'misi'){
+conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik #help ya say..' ,MessageType.text);
+}
+else if (text == 'moshi moshi'){
+conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik #help ya say..' ,MessageType.text);
+}
+else if (text == 'moshi"'){
+conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik #help ya say..' ,MessageType.text);
+}
 else if (text == 'makasi'){
 conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
 }
@@ -302,14 +310,26 @@ conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.tex
 else if (text == 'Thank'){
 conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
 }
-else if (text == 'thanks'){
-conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
-}
 else if (text == '#stiker'){
 conn.sendMessage(id, 'bukan #stiker,tetapi #sticker' ,MessageType.text);
 }
 else if (text == 'Thanks'){
 conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
+}
+else if (text == 'asu'){
+conn.sendMessage(id, 'Wah biasa ni anak dajjal' ,MessageType.text);
+}
+else if (text == 'asw'){
+conn.sendMessage(id, 'Astagfirullah' ,MessageType.text);
+}
+else if (text == 'kontol'){
+conn.sendMessage(id, 'ini nih contoh orang berdosa' ,MessageType.text);
+}
+else if (text == 'memek'){
+conn.sendMessage(id, 'Ampunilah dosa anak ini ya Tuhan' ,MessageType.text);
+}
+else if (text == 'bangsad'){
+conn.sendMessage(id, 'BERDOSAAAAAAA!!!' ,MessageType.text);
 }
 else if (text == '#donate'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
